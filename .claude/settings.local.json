@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(python -m pytest test_solutions/task_01_nearest_zero/test.py -v)",
+      "Bash(python -m pytest test_solutions/task_05_long_arithmetic/test.py -v)",
+      "Bash(python -m pytest test_solutions/task_09_tree_cutting/test.py -v)",
+      "Bash(python -m pytest test_solutions/task_12_efficient_quick_sort/test.py -v)",
+      "Bash(python -m pytest test_solutions/task_15_convex_hull/test.py -v)",
+      "Bash(python -m pytest test_solutions/task_16_fast_sort/test.py -v)",
+      "Bash(python -m pytest test_solutions/task_18_museum/test.py -v)",
+      "Bash(python -m pytest test_solutions/task_22_billionaires/test.py -v)",
+      "Bash(python -m pytest test_solutions/task_26_priority_queue/test.py -v)",
+      "Bash(python -m pytest test_solutions/task_31_parity/test.py -v)",
+      "Bash(pip install:*)",
+      "Bash(uv add:*)",
+      "Bash(python -m pytest test_solutions/task_31_parity/test.py -v --tb=short)"
+    ]
+  }
+}
